@@ -1,3 +1,4 @@
-$ make say-hello
-echo "Hello, World!"
-Hello, World!
+.PHONY: say-hello
+
+say-hello:
+	@echo "Hello, World!"
